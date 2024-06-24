@@ -9,7 +9,7 @@ const todoSchema = mongoose.Schema({
 
 })
 
-const todo = mongoose.model('todos', todoschema);
+const todo = mongoose.model('todos', todoSchema);
 
 module.exports = {
     todo
